@@ -1,0 +1,15 @@
+[tool.pylint.BASIC]
+variable-naming-style = "camelCase"   
+argument-naming-style = "camelCase"   
+attr-naming-style = "camelCase"       
+method-naming-style = "camelCase"     
+class-naming-style = "PascalCase" 
+const-naming-style = "camelCase"    
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "missing-final-newline"
+]
