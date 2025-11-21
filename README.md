@@ -16,6 +16,7 @@ Python 3.8 ou supérieur
 ## 2. Création et activation de l’environnement virtuel
 
 python3 -m venv venv
+
 source venv/bin/activate
 
 ## 3. Installation des dépendances
